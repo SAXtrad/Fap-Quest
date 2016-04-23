@@ -1,4 +1,4 @@
-package mainPackage;
+package fapquest;
 import java.awt.AlphaComposite;
 import java.awt.Composite;
 import java.awt.Graphics;

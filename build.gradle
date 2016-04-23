@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'application'
+version = '1.0-SNAPSHOT' 
+
+mainClassName = 'fapquest.Main'
+
+repositories {
+  flatDir {
+    dirs 'libs'
+  }
+}
+
+dependencies {
+  compile name: 'tinysound-1.1.1'
+}

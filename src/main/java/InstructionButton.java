@@ -1,4 +1,4 @@
-package mainPackage;
+package fapquest;
 
 import java.awt.Graphics2D;
 import java.awt.Image;

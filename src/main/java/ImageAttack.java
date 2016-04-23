@@ -1,4 +1,4 @@
-package mainPackage;
+package fapquest;
 
 public class ImageAttack {
 	private int costInStamina;
