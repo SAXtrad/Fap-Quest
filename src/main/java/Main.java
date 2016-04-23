@@ -1,4 +1,4 @@
-package mainPackage;
+package fapquest;
 import java.awt.Color;
 
 import javax.swing.*;

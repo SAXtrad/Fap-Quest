@@ -8,14 +8,31 @@ If it's not the case, you can find it here (for Windows users) : https://www.jav
 If you're really motivated you can try to create your own opponents :
 Here's a link to a tutorial : http://fap-hero.wikia.com/wiki/Create_Opponents
 
+## Building on Windows with Eclipse
 
-## To Linux users (tutorial by "chemiserouge") :
-Check the version of your installed Java JRE : java -version
+* Install [Java 8](https://www.java.com/fr/download/)
+* Install [Eclipse](https://eclipse.org/downloads/)
+* Import this directory as a Gradle project.
 
-Check if the build is greater than or equal to 1.8 and if that's the case, run the game with this command : java -jar FapQuest.jar
+## Building on Linux
 
-Otherwise you have to install Java JRE. Installation for (Debian/Ubuntu/etc...) : sudo apt-get install openjdk-8-jre
+Install Java 8:
 
+```sh
+sudo apt-get install openjdk-8-jre
+```
+
+To build Fap-Quest using command-line, use:
+
+```sh
+gradle build
+```
+
+To run Fap-Quest use:
+
+```sh
+gradle run
+```
 
 ## Last Updates :
 

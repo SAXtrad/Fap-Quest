@@ -1,4 +1,4 @@
-package mainPackage;
+package fapquest;
 import java.awt.image.BufferedImage;
 public class ImageFrame {
     private final int delay;
