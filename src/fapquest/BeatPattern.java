@@ -367,6 +367,10 @@ public class BeatPattern {
 	    }
 	    reader.dispose();
 
+	    if (frames.size() == 0) {
+	    	throw new RuntimeException("No frames in " + gif_filename);
+	    }
+
 	    this.gif_visual_frames=frames.toArray(new ImageFrame[frames.size()]);
 	}
 	

@@ -5,6 +5,8 @@ sourceCompatibility = 1.8
 
 mainClassName = 'fapquest.Main'
 
+sourceSets.main.java.srcDirs = [ 'src' ]
+
 repositories {
   flatDir {
     dirs 'libs'
